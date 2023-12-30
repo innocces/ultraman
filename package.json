@@ -1,0 +1,49 @@
+{
+  "name": "ultraman",
+  "description": "starter for taro",
+  "packageManager": "pnpm@8.13.1",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innocces/ultraman.git"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "vitepress",
+    "taro",
+    "tarojs",
+    "react",
+    "vue",
+    "ultraman",
+    "template",
+    "starter"
+  ],
+  "author": "innocces",
+  "license": "MIT",
+  "homepage": "https://ultraman-starter.page.dev",
+  "bugs": {
+    "url": "https://github.com/innocces/ultraman/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "conventional-changelog-cli": "^4.1.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vitepress": "1.0.0-rc.33",
+    "vue": "^3.4.1",
+    "vue-tsc": "^1.8.27"
+  },
+  "engines": {
+    "node": ">=20",
+    "vscode": "^1.85.0"
+  }
+}
